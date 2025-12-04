@@ -1,0 +1,4 @@
+{"rule":"WHITESPACE_RULE","sentence":"^\\Qsame .\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qsame .\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qsame .\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSportScientia Ltd., Contracted.\\E$"}
