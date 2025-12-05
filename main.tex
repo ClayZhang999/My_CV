@@ -111,12 +111,16 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
 \newcommand{\resumeItemListStart}{\begin{itemize}\vspace{-5pt}}
-  
+
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Contents starts here  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 %---------- HEADING ----------
@@ -174,7 +178,7 @@ $|$
 
 \textbf{Biomechanics Tools:}{ Optical Motion Capture, Inertial Measurement Unit, Force Plates, EMG} \\ \vspace{3pt}
 
-\textbf{High-Performance Computing:}{ SLURM, AWS, Dask} \\ \vspace{3pt}
+\textbf{High-Performance Computing:}{ Slurm, AWS, Dask} \\ \vspace{3pt}
 
 \textbf{Machine Learning:}{ PyTorch, TensorFlow, Keras, Scikit-learn} \\ \vspace{3pt}
 
@@ -182,8 +186,8 @@ $|$
 \resumeSubHeadingListEnd
 
 
-%----------- EXPERIENCE -----------
-\section{Experience}
+%----------- Technicals -----------
+\section{Technicalities}
 \vspace{3pt}
 \resumeSubHeadingListStart
 
@@ -238,7 +242,7 @@ muscle co-contractions during treadmill running using motion capture integrated 
 \resumePublicationItem
 {\textbf{Zhang, Z.}, Verhuel, J., Robinson, M., and Lake, M.}
 {Estimating ground reaction forces in dynamic sports movements using instrumented insoles and deep learning.}
-{XXX Congress of International Society of Biomechanics.}
+{Oral Presentation at XXX Congress of International Society of Biomechanics, p.85033, Stockholm, Sweden.}
 {2025}
 
 \resumePublicationItem
@@ -250,7 +254,7 @@ muscle co-contractions during treadmill running using motion capture integrated 
 \resumePublicationItem
 {\textbf{Zhang, Z.} and Lake, M.}
 {Rate of knee flexion at the instant of landing during running can influence initial knee joint stiffness estimates due to running shoe cushioning.}
-{Oral Presentation, XXIX Congress of International Society of Biomechanics, p.314.}
+{Oral Presentation at XXIX Congress of International Society of Biomechanics, p.314, Fukuoka, Japan.}
 {2023}
 
 \resumePublicationItem
@@ -262,12 +266,10 @@ muscle co-contractions during treadmill running using motion capture integrated 
 \resumePublicationItem
 {\textbf{Zhang, Z.} and Lake, M.}
 {A comparison of unmatched and matched filtering approaches for knee joint stiffness calculation during running.}
-{Oral Presentation, ISBS Proceedings Archive, 40(1), 807.}
+{Oral Presentation at 40\textsuperscript{th} International Society of Biomechanics in Sports, Proceedings Archive, 40(1), 807, Liverpool, United Kingdom.}
 {2022}
 
-
 \resumeSubHeadingListEnd
-
 
 
 %----------- PROJECTS -----------
@@ -291,15 +293,15 @@ accuracy in predicting vertical and anterior-posterior GRFs again force plates.}
 the results against optical motion capture data.}
 \resumeItem{It automates the entire workflow from data loading, preprocessing, sensor fusion, sensor-to-segment calibration, inverse kinematics, to 
 results visualization} 
-\resumeItem{It also features a calibration-free approach for IMU sensors as it does not require magnetometers and parallelized computing to speed up 
-processing.}
+\resumeItem{It also features parallelized computing to speed up processing and a calibration-free approach for IMU sensors as it does not require 
+magnetometers.}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {\textbf{Wearable\_System(Under Development)} $|$ \emph{\href{https://github.com/ClayZhang999/Wearable_system}{\color{blue}GitHub}}}{}
 \resumeItemListStart
-\resumeItem{A Python project integrating \textbf{TechLayer} and \textbf{Wearable\_IK} to simulate neural-muscular dynamics from a complete set of wearable
-sensors (instrumented insoles + IMUs + EMGs) using optimal control framework in OpenSim.} 
+\resumeItem{A Python project integrating \textbf{TechLayer} and \textbf{Wearable\_IK} to simulate neural-muscular dynamics from a complete set of 
+wearable sensors (instrumented insoles + IMUs + EMGs) using optimal control framework in OpenSim.} 
 \resumeItemListEnd
 
 \resumeProjectHeading
@@ -312,8 +314,27 @@ sensors (instrumented insoles + IMUs + EMGs) using optimal control framework in 
 \resumeSubHeadingListEnd
 
 
-%----------- REFERENCES -----------
+%----------- TEACHING -----------
+\section{Teaching}
+\vspace{3pt}
+\resumeSubHeadingListStart
 
+\resumeSubheading
+{Graduate Teaching Assistant}
+{Nov 2021 \textbf{--} Nov 2025}
+{Liverpool John Moores University, Contracted}
+{United Kingdom}
+\resumeItemListStart
+\resumeItem{Assisted in biomechanics lectures and practical laboratory sessions for optical motion capture cameras, force plates, IMUs and EMGs at 
+undergraduate and master levels.}
+\resumeItem{Provided one-on-one tutorial support for students' projects and technical training of setting up and using the equipment for data collection
+of students' projects.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%----------- REFERENCES -----------
 \section{References}
 \vspace{2pt}
 \resumeSubHeadingListStart
@@ -322,10 +343,8 @@ sensors (instrumented insoles + IMUs + EMGs) using optimal control framework in 
 
 
 
-%-------------------------------------------
 
-
-
+%----------- AWARDS -----------
 % \section{Awards \& Achievements}
 % \vspace{2pt}
 % \resumeSubHeadingListStart
