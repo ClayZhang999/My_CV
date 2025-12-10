@@ -2,3 +2,16 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qsame .\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qsame .\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSportScientia Ltd., Contracted.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTrigno EMGs and 8 Noraxon EMGs.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtreadmill (AMTI force plate embedded), 16 Delsys.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSystem1: 10 Qualysis.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMiqus cameras for marker-less motion capture, 2 Kistler.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qtreadmill (AMTI force plate embedded), 16 Delsys.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSystem2: 8 Qualysis.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QT-series cameras, 2 Kistler force plates, 8 Vicon Blue Trident IMUs and 16 Delsys Trigno EMGs.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSystem3: 14 Vicon.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QVero motion capture cameras integrated with 16 Vicon.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTrigno EMGs and 8 Noraxon.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QArqus motion capture cameras integrated with a Treadmetrix.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QArqus motion capture cameras integrated with 8 Qualysis.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTrigno EMGs.\\E$"}
