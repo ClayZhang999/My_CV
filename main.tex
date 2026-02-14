@@ -83,27 +83,6 @@
 \end{tabular*}\vspace{-2pt}
 }
 
-% \newcommand{\resumeOrganizationHeading}[4]{
-% \vspace{-2pt}\item
-% \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-% \textbf{#1} & \textit{\small #2} \\
-% \textit{\small#3}
-% \end{tabular*}\vspace{-7pt}
-% }
-
-% \newcommand{\resumePublicationHeading}[3]{
-% \vspace{-2pt}\item
-% \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-% \textbf{#1} & \textit{\small #2} \\
-% \small#3
-% \end{tabular*}\vspace{-7pt}
-% }
-
-\newcommand{\resumePublicationItem}[4]{
-\vspace{-2pt}\item
-\small{#1 #2 \textit{#3} (#4)}
-\vspace{-2pt}
-}
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
@@ -142,45 +121,31 @@ $|$
 \end{center}
 
 
-%----------- PROJECTS -----------
-\section{Leading Projects}
+%----------- EDUCATION -----------
+\section{Education}
 \vspace{3pt}
 \resumeSubHeadingListStart
 
-\resumeProjectHeading
-{\textbf{TechLayer} $|$ \emph{\href{https://github.com/ClayZhang999/Tech_layers}{\color{blue}GitHub (Coming Soon)}}}{}
-\resumeItemListStart
-\resumeItem{A Python project implemented a deep learning model to predict Ground Reaction Forces (GRFs) from IMU and pressure sensor data collected
-from instrumented insoles during various dynamic sports movements.} 
-\resumeItem{The model is trained and validated on a dataset of 32 participants using High-Performance Computing (HPC) clusters and demonstrated high
-accuracy in predicting vertical and anterior-posterior GRFs against force plates.}
-\resumeItemListEnd
+\resumeEducationHeading
+{PhD candidate in Human Movement Biomechanics} 
+{Jul 2023 \textbf{--} Present}
+{Research Institute for Sport and Exercise Science}
+{Liverpool John Moores University, United Kingdom}
+    
+\resumeSubheading
+{Master of Science in Sport and Clinical Biomechanics} 
+{Sep 2020 \textbf{--} Nov 2021}
+{School of Sport and Exercise Science}
+{Liverpool John Moores University, United Kingdom}
 
-\resumeProjectHeading
-{\textbf{Wearable\_IK} $|$ \emph{\href{https://github.com/ClayZhang999/Wearable_ik}{\color{blue}GitHub (Coming Soon)}}}{}
-\resumeItemListStart
-\resumeItem{A Python project integrating open-source sensor fusion algorithms and OpenSim API to estimate joint kinematics from IMU data and validating
-the results against optical motion capture data.}
-\resumeItem{It automates the entire workflow from data loading, preprocessing, sensor fusion, sensor-to-segment calibration, inverse kinematics, to 
-results visualization} 
-\resumeItem{It also features parallelized computing to speed up processing and a calibration-free approach for IMU sensors as it does not require 
-magnetometers.}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{Wearable\_System} $|$ \emph{\href{https://github.com/ClayZhang999/Wearable_system}{\color{blue}GitHub (Under Development)}}}{}
-\resumeItemListStart
-\resumeItem{A Python project integrating \textbf{TechLayer} and \textbf{Wearable\_IK} to generate muscle-driven simulations of human movement while
-solving optimal control problems from wearable sensor (instrumented insoles + IMUs) using OpenSim Moco. It also aims to validate the simulation
-results against traditional biomechanics measurement system using optical motion capture, force plates and EMGs.}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{My\_Website} $|$ \emph{\href{https://github.com/ClayZhang999/ClayZhang999.github.io}{\color{blue}GitHub}}}{}
-\resumeItemListStart
-\resumeItem{A project to build and deploy my personal academic website from an open-source TypeScript template for fun.}
-\resumeItemListEnd
+\resumeSubheading
+{Bachelor of Education in Human Movement Science}
+{Sep 2016 \textbf{--} Jun 2020}
+{School of Exercise and Health Science}
+{Chengdu Sport University, China}
 \resumeSubHeadingListEnd
+
+
 
 
 %----------- SKILLS -----------
@@ -260,70 +225,84 @@ co-contractions during running using motion capture, instrumented treadmill and 
 \resumeSubHeadingListEnd
 
 
-%----------- EDUCATION -----------
-\section{Education}
+%----------- PROJECTS -----------
+\section{Projects}
 \vspace{3pt}
 \resumeSubHeadingListStart
 
-\resumeEducationHeading
-{PhD candidate in Human Movement Biomechanics} 
-{Jul 2023 \textbf{--} Present}
-{Research Institute for Sport and Exercise Science}
-{Liverpool John Moores University, United Kingdom}
-    
-\resumeSubheading
-{Master of Science in Sport and Clinical Biomechanics} 
-{Sep 2020 \textbf{--} Nov 2021}
-{School of Sport and Exercise Science}
-{Liverpool John Moores University, United Kingdom}
+\resumeProjectHeading
+{\textbf{TechLayer} $|$ \emph{\href{https://github.com/ClayZhang999/Tech_layers}{\color{blue}GitHub (Coming Soon)}}}{}
+\resumeItemListStart
+\resumeItem{A Python project implemented a deep learning model to predict Ground Reaction Forces (GRFs) from IMU and pressure sensor data collected
+from instrumented insoles during various dynamic sports movements.} 
+\resumeItem{The model is trained and validated on a dataset of 32 participants using High-Performance Computing (HPC) clusters and demonstrated high
+accuracy in predicting vertical and anterior-posterior GRFs against force plates.}
+\resumeItemListEnd
 
-\resumeSubheading
-{Bachelor of Education in Human Movement Science}
-{Sep 2016 \textbf{--} Jun 2020}
-{School of Exercise and Health Science}
-{Chengdu Sport University, China}
+\resumeProjectHeading
+{\textbf{Wearable\_IK} $|$ \emph{\href{https://github.com/ClayZhang999/Wearable_ik}{\color{blue}GitHub (Coming Soon)}}}{}
+\resumeItemListStart
+\resumeItem{A Python project integrating open-source sensor fusion algorithms and OpenSim API to estimate joint kinematics from IMU data and validating
+the results against optical motion capture data.}
+\resumeItem{It automates the entire workflow from data loading, preprocessing, sensor fusion, sensor-to-segment calibration, inverse kinematics, to 
+results visualization} 
+\resumeItem{It also features parallelized computing to speed up processing and a calibration-free approach for IMU sensors as it does not require 
+magnetometers.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Wearable\_System} $|$ \emph{\href{https://github.com/ClayZhang999/Wearable_system}{\color{blue}GitHub (Under Development)}}}{}
+\resumeItemListStart
+\resumeItem{A Python project integrating \textbf{TechLayer} and \textbf{Wearable\_IK} to generate muscle-driven simulations of human movement while
+solving optimal control problems from wearable sensor (instrumented insoles + IMUs) using OpenSim Moco. It also aims to validate the simulation
+results against traditional biomechanics measurement system using optical motion capture, force plates and EMGs.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{My\_Website} $|$ \emph{\href{https://github.com/ClayZhang999/ClayZhang999.github.io}{\color{blue}GitHub}}}{}
+\resumeItemListStart
+\resumeItem{A project to build and deploy my personal academic website from an open-source TypeScript template for fun.}
+\resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
 %----------- Publications -----------
 \section{Publications}
 \resumeSubHeadingListStart
+\small{\item{
 
-\resumePublicationItem
-{\textbf{Zhang, Z.}, Verhuel, J., Robinson, M., and Lake, M.}
-{Estimating ground reaction forces in dynamic sports movements using instrumented insoles and deep learning.}
-{Oral Presentation at XXX Congress of International Society of Biomechanics, p.85033, Stockholm, Sweden.}
-{2025}
+\textbf{Zhang, Z.}, Verhuel, J., Robinson, M., and Lake, M.,
+Estimating ground reaction forces in dynamic sports movements using instrumented insoles and deep learning.
+Oral Presentation at XXX Congress of International Society of Biomechanics, p.85033, Stockholm, Sweden.
+2025
 
-\resumePublicationItem
-{Yang, C., Yang, Y., Xu, Y., \textbf{Zhang, Z.}, Lake, M., and Fu, W.}
-{Whole leg compression garments influence lower limb kinematics and associated muscle synergies during running.}
-{Frontiers in Bioengineering and Biotechnology, 12, 1310464.}
-{2024}
+Yang, C., Yang, Y., Xu, Y., \textbf{Zhang, Z.}, Lake, M., and Fu, W.
+Whole leg compression garments influence lower limb kinematics and associated muscle synergies during running.
+Frontiers in Bioengineering and Biotechnology, 12, 1310464.
+2024
 
-\resumePublicationItem
-{\textbf{Zhang, Z.} and Lake, M.}
-{Rate of knee flexion at the instant of landing during running can influence initial knee joint stiffness estimates due to running shoe cushioning.}
-{Oral Presentation at XXIX Congress of International Society of Biomechanics, p.314, Fukuoka, Japan.}
-{2023}
+\textbf{Zhang, Z.} and Lake, M.
+Rate of knee flexion at the instant of landing during running can influence initial knee joint stiffness estimates due to running shoe cushioning.
+Oral Presentation at XXIX Congress of International Society of Biomechanics, p.314, Fukuoka, Japan.
+2023
 
-\resumePublicationItem
-{\textbf{Zhang, Z.} and Lake, M.}
-{A re-examination of the measurement of foot strike mechanics during running: the immediate effect of footwear midsole thickness.}
-{Frontiers in Sports and Active Living, 4, 824183.}
-{2022}
+\textbf{Zhang, Z.} and Lake, M.
+A re-examination of the measurement of foot strike mechanics during running: the immediate effect of footwear midsole thickness.
+Frontiers in Sports and Active Living, 4, 824183.
+2022
 
-\resumePublicationItem
-{\textbf{Zhang, Z.} and Lake, M.}
-{A comparison of unmatched and matched filtering approaches for knee joint stiffness calculation during running.}
-{Oral Presentation at 40\textsuperscript{th} International Society of Biomechanics in Sports, Proceedings Archive, 40(1), 807, Liverpool, United Kingdom.}
-{2022}
+\textbf{Zhang, Z.} and Lake, M.
+A comparison of unmatched and matched filtering approaches for knee joint stiffness calculation during running.
+Oral Presentation at 40\textsuperscript{th} International Society of Biomechanics in Sports, Proceedings Archive, 40(1), 807, Liverpool, United Kingdom.
+2022
+
+}}
 
 \resumeSubHeadingListEnd
 
 
 % ----------- PROFESSIONAL CONTRIBUTIONS -----------
-\section{Professional Contributions}
+\section{Contributions}
 \vspace{2pt}
 \resumeSubHeadingListStart
 \small{\item{
